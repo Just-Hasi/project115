@@ -1,0 +1,24 @@
+h3 
+{
+    font-size: 25px ! important;
+    color: darkblue;
+}
+
+.btn-success:hover
+{
+ background-color: blueviolet;
+}
+
+canvas {
+     animation-name: moustacheon;
+     animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+ 
+
+
+@keyframes moustacheon {
+    from{ box-shadow: 1px 1px 38px lightcoral;}
+    to{ box-shadow: 1px 1px 38px darkgrey;}
+}
